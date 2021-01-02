@@ -52,10 +52,10 @@ Hwayeon Kim@DESKTOP-J281U8B MINGW64 ~/Desktop/새 폴더 (master)
 > 커밋할 파일을 관리
 
 ```bash
-$git add . 										#. :현재 디렉토리(하위 디렉토리 포함) 전부
-$git add a.txt 									#확장자가 txt,파일이름 a
-$git add my_folder/ 							#특정 폴더
-$git add a.txt b.txt c.txt 						#여러 파일
+$git add . 							#. :현재 디렉토리(하위 디렉토리 포함) 전부
+$git add a.txt 							#확장자가 txt,파일이름 a
+$git add my_folder/ 						#특정 폴더
+$git add a.txt b.txt c.txt 					#여러 파일
 ```
 
 ### 2.commit
@@ -88,7 +88,7 @@ $git status
 On branch master
 '''
 No commits yet
-Untracked files: 								#새로 생성된 파일(WD에 있는 파일)
+Untracked files: 						#새로 생성된 파일(WD에 있는 파일)
 '''
 nothing added to commit but untracked files present (use "git add" to track)
 ```
@@ -101,7 +101,7 @@ $ git status
 On branch master
 '''
 No commits yet
-Changes to be committed: 						#커밋할 변경사항(SA에 있는 파일)
+Changes to be committed: 					#커밋할 변경사항(SA에 있는 파일)
 '''
 ```
 
@@ -129,10 +129,10 @@ Date:   Tue Dec 29 14:10:53 2020 +0900
 
     First commit
 
-$git log --oneline  							#각 커밋을 요약하여 출력
+$git log --oneline  						#각 커밋을 요약하여 출력
 171b5db (HEAD -> master) First commit
-$git log -2										#가장 최근의 커밋 두개만 출력 
-$git log --oneline -1							#가장 최근의 커밋 한개만 요약하여 출력
+$git log -2							#가장 최근의 커밋 두개만 출력 
+$git log --oneline -1						#가장 최근의 커밋 한개만 요약하여 출력
 ```
 
 ## 원격저장소(remote repository) 활용
@@ -296,7 +296,7 @@ $ git log --oneline
 d81c176 Complete
 fb4ad8d Add b.txt
 ec0574d Add a.txt
-$ git revert 0c330b4            				#d.txt파일 삭제
+$ git revert 0c330b4            			   #d.txt파일 삭제
 '''
 vim 편집기에서 변경사항 확인 후 저장(esc :wq)
 ''' 
@@ -305,7 +305,7 @@ Removing d.txt
  1 file changed, 0 insertions(+), 0 deletions(-)
  delete mode 100644 f.txt
 $ git log --oneline
-56ff1b7 (HEAD -> master) Revert "Add d.txt"   	 #commit을 취소한 이력 남음
+56ff1b7 (HEAD -> master) Revert "Add d.txt"   	           #commit을 취소한 이력 남음
 0c330b4 Add d.txt
 d81c176 Complete
 fb4ad8d Add b.txt
@@ -331,7 +331,7 @@ data.csv
 images/
 # 특정확장자
 *.png
-!profile.png 									 #특정 파일(profile.png)은 빼고
+!profile.png 						   #특정 파일(profile.png)은 빼고
 ```
 
 참고: https://gitignore.io
@@ -366,7 +366,7 @@ Switched to branch  __branch name__
 
 ```bash
 $ git branch
-* __branch name2__ 								  # *:HEAD가 가리키는 위치
+* __branch name2__ 					   # *:HEAD가 가리키는 위치
   __branch name1__
   master
 ```
@@ -410,7 +410,7 @@ $ git branch -d __branch name__
    $ git commit -m 'Complete data'
    '''
    $ git log --oneline
-   5ff4709 (HEAD -> practice) Complete data	    #HEAD가 practice브랜치 가리킴
+   5ff4709 (HEAD -> practice) Complete data	           #HEAD가 practice브랜치 가리킴
    c6f5db0 (master) Add README
    ```
 
@@ -427,10 +427,10 @@ $ git branch -d __branch name__
 
    ```bash
    $ git log --oneline
-   c6f5db0 (HEAD -> master) Add README				#HEAD가 master브랜치 가리킴
-   $ git merge practice							#master브랜치에 practice브랜치 병합
+   c6f5db0 (HEAD -> master) Add README			   #HEAD가 master브랜치 가리킴
+   $ git merge practice					   #master브랜치에 practice브랜치 병합
    Updating c6f5db0..5ff4709
-   Fast-forward									#master브랜치에 변경사항 없으므로 그냥 앞으로 쭉-
+   Fast-forward						   #master브랜치에 변경사항 없으므로 그냥 앞으로 쭉-
    '''
    ```
 
