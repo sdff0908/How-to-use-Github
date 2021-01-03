@@ -664,4 +664,4 @@ $ git branch -d __branch name__
     Deleted branch practice (was 6b0245e).
     ```
 
-*github관련 추가내용은 [https://backlog.com/git-tutorial/kr/intro/intro1_1.html 참조]*
+*github관련 추가내용은 https://backlog.com/git-tutorial/kr/intro/intro1_1.html 참조*
