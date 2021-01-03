@@ -43,7 +43,7 @@ Hwayeon Kim@DESKTOP-J281U8B MINGW64 ~/Desktop/새 폴더 (master)
 
 ## 기본작업 흐름
 
-![gitbasic-1](https://user-images.githubusercontent.com/72610879/103472368-0eb1c600-4dd0-11eb-945d-4202e74fad17.png)
+![gitbasic-1](https://user-images.githubusercontent.com/72610879/103472420-a31c2880-4dd0-11eb-9116-404f6c74d1d5.png)
 
 ### 1. add
 
@@ -207,7 +207,7 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
 원격 저장소의 변경사항을 로컬저장소로 가져와 병합한 후 (pull) 로컬 저장소의 변경사항을 원격저장소로 보내어(push) 오류를 해결한다(=*원격 저장소와 로컬 저장소의 커밋 이력을 같게 한다*)
 
-![gitbasic-7](https://user-images.githubusercontent.com/72610879/103472059-0ce60380-4dcc-11eb-8af7-896b067f6db7.png)
+![gitbasic-7](https://user-images.githubusercontent.com/72610879/103472367-0eb1c600-4dd0-11eb-97a8-043aa7492335.png)
 
 ```bash
 $ git pull origin master
