@@ -37,7 +37,7 @@ print(hi)
 
 ## 그림
 
-![markdown grammar-1](https://user-images.githubusercontent.com/72610879/103472060-0d7e9a00-4dcc-11eb-9dbe-88530c720f52.jpg)
+![markdown grammar-1](https://user-images.githubusercontent.com/72610879/103473303-69e8b600-4dda-11eb-92f0-e08df7af5bb9.jpg)
 
 typora설정을 통해 상대 경로로 이미지를 관리해야 github 등에서 깨지지 않고 활용가능
 
