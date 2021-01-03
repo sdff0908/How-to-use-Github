@@ -43,7 +43,7 @@ Hwayeon Kim@DESKTOP-J281U8B MINGW64 ~/Desktop/새 폴더 (master)
 
 ## 기본작업 흐름
 
-![gitbasic-1](https://user-images.githubusercontent.com/72610879/103472420-a31c2880-4dd0-11eb-9116-404f6c74d1d5.png)
+![gitbasic-1](https://user-images.githubusercontent.com/72610879/103472446-0dcd6400-4dd1-11eb-8b75-c579ee87101e.png)
 
 ### 1. add
 
