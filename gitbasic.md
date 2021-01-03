@@ -11,14 +11,14 @@
 처음에 컴퓨터에서 git을 사용하려고 하면, 아래의 설정을 해야 commit이 가능하다
 
 ```bash
-$git config --global user.name __username__
-$git config --global user.email __email__
+$ git config --global user.name __username__
+$ git config --global user.email __email__
 ```
 
 설정을 확인할 때는 아래의 명령어를 활용한다
 
 ```bash
-$git config --global -1
+$ git config --global -1
 user.name=sdff0908
 user.email=2khy0908@gmail.com
 ```
@@ -52,10 +52,10 @@ Hwayeon Kim@DESKTOP-J281U8B MINGW64 ~/Desktop/새 폴더 (master)
 > 커밋할 파일을 관리
 
 ```bash
-$git add . 							#. :현재 디렉토리(하위 디렉토리 포함) 전부
-$git add a.txt 							#확장자가 txt,파일이름 a
-$git add my_folder/ 						#특정 폴더
-$git add a.txt b.txt c.txt 					#여러 파일
+$ git add . 							#. :현재 디렉토리(하위 디렉토리 포함) 전부
+$ git add a.txt 							#확장자가 txt,파일이름 a
+$ git add my_folder/ 						#특정 폴더
+$ git add a.txt b.txt c.txt 					#여러 파일
 ```
 
 ### 2.commit
@@ -63,7 +63,7 @@ $git add a.txt b.txt c.txt 					#여러 파일
 > 지금 상태를 스냅샷으로 찍음
 
 ```bash
-$git commit -m 'First commit'
+$ git commit -m 'First commit'
 ```
 
 커밋 메시지는 지금 기록하는 이력을 충분히 잘 나타낼 수 있도록 작성한다
@@ -77,14 +77,14 @@ $git commit -m 'First commit'
 > git저장소 내의 변경사항 추적
 
 ```bash
-$git status
+$ git status
 ```
 
 * touch 이후
 
 ```bash
-$touch a.txt                					#touch: 파일 생성
-$git status		
+$ touch a.txt                					#touch: 파일 생성
+$ git status		
 On branch master
 '''
 No commits yet
@@ -122,17 +122,17 @@ Changes not staged for commit:  				#SA에 있지 않은 변경사항(WD에 있�
 > 지금까지 기록된 커밋들을 확인할 수 있다
 
 ```bash
-$git log
+$ git log
 commit 171b5dbcfd6694ff5d8566311809c63cb869f663 (HEAD -> master)
 Author: sdff0908 <2khy0908@gmail.com>
 Date:   Tue Dec 29 14:10:53 2020 +0900
 
     First commit
 
-$git log --oneline  						#각 커밋을 요약하여 출력
+$ git log --oneline  						#각 커밋을 요약하여 출력
 171b5db (HEAD -> master) First commit
-$git log -2							#가장 최근의 커밋 두개만 출력 
-$git log --oneline -1						#가장 최근의 커밋 한개만 요약하여 출력
+$ git log -2							#가장 최근의 커밋 두개만 출력 
+$ git log --oneline -1						#가장 최근의 커밋 한개만 요약하여 출력
 ```
 
 ## 원격저장소(remote repository) 활용
@@ -663,3 +663,5 @@ $ git branch -d __branch name__
     $ git branch -d practice
     Deleted branch practice (was 6b0245e).
     ```
+
+*github관련 추가내용은 [https://backlog.com/git-tutorial/kr/intro/intro1_1.html 참조]*
