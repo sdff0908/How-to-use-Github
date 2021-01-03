@@ -37,11 +37,11 @@ print(hi)
 
 ## 그림
 
-![markdown grammar-1](md-images/markdown%20grammar-1.jpg)
+![markdown grammar-1](https://user-images.githubusercontent.com/72610879/103472060-0d7e9a00-4dcc-11eb-9dbe-88530c720f52.jpg)
 
 typora설정을 통해 상대 경로로 이미지를 관리해야 github 등에서 깨지지 않고 활용가능
 
-![markdown grammar-2](md-images/markdown%20grammar-2.PNG)
+<img width="455" alt="markdown grammar-2" src="https://user-images.githubusercontent.com/72610879/103472062-0f485d80-4dcc-11eb-85e6-be92aa821d81.PNG">
 
 ## 글자
 
