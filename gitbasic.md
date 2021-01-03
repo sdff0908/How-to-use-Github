@@ -664,4 +664,28 @@ $ git branch -d __branch name__
     Deleted branch practice (was 6b0245e).
     ```
 
+## 기타 명령어
+
+### 1. touch
+
+파일을  생성한다
+
+```bash
+$ touch sources.txt
+$ touch README.md
+```
+
+### 2. cd
+
+폴더로 이동한다
+
+```bash
+Hwayeon Kim@DESKTOP-J281U8B MINGW64 ~/Desktop/TIL (master)
+$ cd md-images
+
+Hwayeon Kim@DESKTOP-J281U8B MINGW64 ~/Desktop/TIL/md-images (master)
+```
+
+
+
 *github관련 추가내용은 https://backlog.com/git-tutorial/kr/intro/intro1_1.html 참조*
