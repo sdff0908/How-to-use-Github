@@ -322,7 +322,7 @@ git 저장소 내 git으로 관리하고 싶지 않은 파일(예: 개인정보)
 $ touch .gitignore								
 ```
 
-* `.gitignore`에 입력하기
+visual studio code로 `.gitignore` 열고 파일 입력한다
 
 ```bash
 # 특정파일
