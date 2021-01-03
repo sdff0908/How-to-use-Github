@@ -43,7 +43,7 @@ Hwayeon Kim@DESKTOP-J281U8B MINGW64 ~/Desktop/새 폴더 (master)
 
 ## 기본작업 흐름
 
-![gitbasic-1](https://user-images.githubusercontent.com/72610879/103472063-10798a80-4dcc-11eb-9495-d2b94f55bd38.png)
+![gitbasic-1](https://user-images.githubusercontent.com/72610879/103472368-0eb1c600-4dd0-11eb-945d-4202e74fad17.png)
 
 ### 1. add
 
@@ -191,7 +191,7 @@ $ git pull origin master
 
 로컬 저장소의 커밋 이력과 원격 저장소의 커밋 이력이 다를 때 발생한다
 
-![gitbasic-6](https://user-images.githubusercontent.com/72610879/103472058-0c4d6d00-4dcc-11eb-8026-b74482802f51.png)
+![gitbasic-6](https://user-images.githubusercontent.com/72610879/103472366-0e192f80-4dd0-11eb-9d71-47d014cd6ee8.png)
 
 ```bash
 $ git push origin master
@@ -456,7 +456,7 @@ $ git branch -d __branch name__
 
 > 서로 다른 커밋 이력을 병합(merge)하는 과정에서 다른 파일이 수정되어 있는 상황
 
-![gitbasic-2](https://user-images.githubusercontent.com/72610879/103472064-11122100-4dcc-11eb-8c14-544d7a0d8c4c.png)
+![gitbasic-2](https://user-images.githubusercontent.com/72610879/103472370-0f4a5c80-4dd0-11eb-9413-0e0d51bde2d1.png)
 
 1. practice 브랜치 생성 및 이동
 
@@ -538,7 +538,7 @@ $ git branch -d __branch name__
 
 > 서로 다른 커밋 이력을 병합(merge)하는 과정에서 동일 파일이 수정되어 있는 상황
 
-![gitbasic-4](https://user-images.githubusercontent.com/72610879/103472067-12434e00-4dcc-11eb-82a9-c94706b8bf3a.PNG)
+![gitbasic-4](https://user-images.githubusercontent.com/72610879/103472373-0fe2f300-4dd0-11eb-979c-86da653112c2.PNG)
 
 1. practice 브랜치 생성 및 이동
 
@@ -631,8 +631,8 @@ $ git branch -d __branch name__
 
    vim 편집기 화면이 나타난다
 
-   <img width="452" alt="gitbasic-5" src="https://user-images.githubusercontent.com/72610879/103472057-0b1c4000-4dcc-11eb-8ef7-cb853208543a.PNG">
-
+   <img width="452" alt="gitbasic-5" src="https://user-images.githubusercontent.com/72610879/103472365-0ce80280-4dd0-11eb-8cb4-a1e334d49248.PNG">
+   
    자동으로 작성된 커밋 메시지를 확인하고, `esc`와  `:wq`를 차례로 눌러 저장 및 종료한다
 
    * `w` : write
