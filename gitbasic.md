@@ -43,7 +43,7 @@ Hwayeon Kim@DESKTOP-J281U8B MINGW64 ~/Desktop/새 폴더 (master)
 
 ## 기본작업 흐름
 
-![gitbasic-1](md-images/gitbasic-1.png)
+![gitbasic-1](https://user-images.githubusercontent.com/72610879/103472063-10798a80-4dcc-11eb-9495-d2b94f55bd38.png)
 
 ### 1. add
 
@@ -191,7 +191,7 @@ $ git pull origin master
 
 로컬 저장소의 커밋 이력과 원격 저장소의 커밋 이력이 다를 때 발생한다
 
-![gitbasic-6](md-images/gitbasic-6.png)
+![gitbasic-6](https://user-images.githubusercontent.com/72610879/103472058-0c4d6d00-4dcc-11eb-8026-b74482802f51.png)
 
 ```bash
 $ git push origin master
@@ -207,7 +207,7 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
 원격 저장소의 변경사항을 로컬저장소로 가져와 병합한 후 (pull) 로컬 저장소의 변경사항을 원격저장소로 보내어(push) 오류를 해결한다(=*원격 저장소와 로컬 저장소의 커밋 이력을 같게 한다*)
 
-![gitbasic-7](md-images/gitbasic-7.png)
+![gitbasic-7](https://user-images.githubusercontent.com/72610879/103472059-0ce60380-4dcc-11eb-8af7-896b067f6db7.png)
 
 ```bash
 $ git pull origin master
@@ -456,7 +456,7 @@ $ git branch -d __branch name__
 
 > 서로 다른 커밋 이력을 병합(merge)하는 과정에서 다른 파일이 수정되어 있는 상황
 
-![gitbasic-2](md-images/gitbasic-2.png)
+![gitbasic-2](https://user-images.githubusercontent.com/72610879/103472064-11122100-4dcc-11eb-8c14-544d7a0d8c4c.png)
 
 1. practice 브랜치 생성 및 이동
 
@@ -506,7 +506,7 @@ $ git branch -d __branch name__
 
    vim 편집기 화면이 나타난다
 
-   ![gitbasic-3](md-images/gitbasic-3.png)
+   <img width="453" alt="gitbasic-3" src="https://user-images.githubusercontent.com/72610879/103472066-11aab780-4dcc-11eb-936a-de6fba593805.png">
 
    커밋 메시지 확인 후 `esc`와 `:wq`를 차례로 눌러 저장 및 종료한다
 
@@ -538,7 +538,7 @@ $ git branch -d __branch name__
 
 > 서로 다른 커밋 이력을 병합(merge)하는 과정에서 동일 파일이 수정되어 있는 상황
 
-![gitbasic-4](md-images/gitbasic-4.PNG)
+![gitbasic-4](https://user-images.githubusercontent.com/72610879/103472067-12434e00-4dcc-11eb-82a9-c94706b8bf3a.PNG)
 
 1. practice 브랜치 생성 및 이동
 
@@ -631,7 +631,7 @@ $ git branch -d __branch name__
 
    vim 편집기 화면이 나타난다
 
-   ![gitbasic-5](md-images/gitbasic-5.PNG)
+   <img width="452" alt="gitbasic-5" src="https://user-images.githubusercontent.com/72610879/103472057-0b1c4000-4dcc-11eb-8ef7-cb853208543a.PNG">
 
    자동으로 작성된 커밋 메시지를 확인하고, `esc`와  `:wq`를 차례로 눌러 저장 및 종료한다
 
